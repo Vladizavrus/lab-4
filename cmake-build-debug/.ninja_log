@@ -1,0 +1,19 @@
+# ninja log v5
+4	1613	7380026147173954	CMakeFiles/template_tree.dir/main.cpp.obj	9bbbf761b05f3f3b
+1614	2456	7380026155590563	template_tree.exe	dcd8856a59ebee4a
+2	1216	7381043156025406	CMakeFiles/template_tree.dir/main.cpp.obj	9bbbf761b05f3f3b
+1216	2012	7381043163970859	template_tree.exe	dcd8856a59ebee4a
+4	1633	7381640948331599	CMakeFiles/template_tree.dir/main.cpp.obj	9bbbf761b05f3f3b
+1634	2223	7381640954216298	template_tree.exe	dcd8856a59ebee4a
+3	1224	7381654557808032	CMakeFiles/template_tree.dir/main.cpp.obj	9bbbf761b05f3f3b
+1224	1449	7381654559989263	template_tree.exe	dcd8856a59ebee4a
+4	1302	7381658372281695	CMakeFiles/template_tree.dir/main.cpp.obj	9bbbf761b05f3f3b
+1303	1527	7381658374458621	template_tree.exe	dcd8856a59ebee4a
+5	1136	7381661829828188	CMakeFiles/template_tree.dir/main.cpp.obj	9bbbf761b05f3f3b
+1137	1382	7381661832276866	template_tree.exe	dcd8856a59ebee4a
+3	1282	7381727870418914	CMakeFiles/template_tree.dir/main.cpp.obj	9bbbf761b05f3f3b
+1282	1522	7381727872784004	template_tree.exe	dcd8856a59ebee4a
+4	1233	7381730125003579	CMakeFiles/template_tree.dir/main.cpp.obj	9bbbf761b05f3f3b
+1234	1492	7381730127583893	template_tree.exe	dcd8856a59ebee4a
+3	1267	7381730430196329	CMakeFiles/template_tree.dir/main.cpp.obj	9bbbf761b05f3f3b
+1268	1511	7381730432604794	template_tree.exe	dcd8856a59ebee4a
