@@ -316,6 +316,24 @@ public:
         result.push_back(root->val);
         inorderTraversalHelper(root->right, result);
     }
+    void distructNode(Node<T>* node){
+    free(node->left);
+    free(node->right);
+    free(node);}
+    void distructRecursive(Node<T>* root){
+        if (root == nullptr) {
+            return ;
+        }
+         if (root->left != nullptr) {
+            distructRecursive(root->left);
+        }
+        if (root->right != nullptr) {
+            distructRecursive(root->right);
+        }
+        distructNode(root);
+    }
+    ~BTS{distructRecursive(this.root);
+    }
 
 };
 // 5 10 15 16 22 30

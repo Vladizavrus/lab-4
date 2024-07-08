@@ -23,6 +23,13 @@ int main() {
 //    }
     BST<int> testing = BST(in, klp);
     testing.delete_element(50);
+    testing.delete_element(100);
+    testing.delete_element(1);
+    //testing.delete_element(15400); will throw IllegalArgumetException
+     vector<int> in_test = testing.inorderTraversal();
+     for(auto& el : in_test){
+            cout<< el<< ' ';
+        }
     for(int i = 0; i < 15; ++i){
         testing.delete_element(testing.getRoot());
         vector<int> in_test1 = testing.inorderTraversal();
