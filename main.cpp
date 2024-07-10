@@ -22,9 +22,18 @@ int main() {
 //        cin>>klp[i];
 //    }
     BST<int> testing = BST(in, klp);
+    
+// удаление листа
+    testing.delete_element(1); 
+// удаление узла с одним потомком
+    testing.delete_element(6);
+// удаление узла с двумя потомками
+    testing.delete_element(70);
+// удаление узла, у которого высота поддерева больше 2-ух
+    testing.delete_element(75);
+// удаление корня
     testing.delete_element(50);
-    testing.delete_element(100);
-    testing.delete_element(1);
+    
     //testing.delete_element(15400); will throw IllegalArgumetException
      vector<int> in_test = testing.inorderTraversal();
      for(auto& el : in_test){
